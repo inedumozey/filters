@@ -1,6 +1,6 @@
 {
-  "name": "@mo-filter",
-  "version": "1.0.0",
+  "name": "mo-filter",
+  "version": "2.0.0",
   "description": "quickly filters large array of object. simple to use",
   "main": "filter.js",
   "bin": "filter.js",
