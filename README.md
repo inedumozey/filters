@@ -1,14 +1,12 @@
 # filter.js
 
-[![NPM version][npm-version-image]][npm-url]
-
 filter.js filters array of object with few lines of codes. It is simple to use, scalable, light weight and very easy to use
 
 ## Description
 filter.js is a light weight, plain javascript package that can be used to filter large array of object.
 
 ## Installation
-`npm i filter --save`
+`npm i @mo-filter --save`
 
 ## Usage
 ...
@@ -27,7 +25,7 @@ filter is an a function that receives 4 compulsory arguments.
 ## Example codes
 ...
    
-    import filter from "./filter.js"
+    import filter from "@mo-filter"
 
     const arrayObj = [
         {
