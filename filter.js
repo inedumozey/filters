@@ -42,4 +42,3 @@ const filter=(data=[], values=[], input="", cb=((res=null, err=null)=>{}))=>{
 }
 
 export default filter
-

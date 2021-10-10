@@ -1,4 +1,4 @@
-filter.js
+# filter.js
 
 [![NPM version][npm-version-image]][npm-url]
 
@@ -7,11 +7,12 @@ filter.js filters array of object with few lines of codes. It is simple to use, 
 ## Description
 filter.js is a light weight, plain javascript package that can be used to filter large array of object.
 
-## Instaallation
+## Installation
 `npm i filter --save`
 
 ## Usage
 ...
+    
     import filter from "filter";
 ...
 
@@ -25,6 +26,7 @@ filter is an a function that receives 4 compulsory arguments.
 
 ## Example codes
 ...
+   
     import filter from "./filter.js"
 
     const arrayObj = [
@@ -55,7 +57,8 @@ filter is an a function that receives 4 compulsory arguments.
     ]
 
 
-    const val = "name3"  //can be anything that you want the use to find the data with
+    const val = "name3"
+    //can be anything that you want the use to find the data with
     //val is the value from search input
 
     filter(arrayObj, ["name", "email", "product"], val, (data, err)=>{
@@ -65,8 +68,28 @@ filter is an a function that receives 4 compulsory arguments.
             console.log(data)
         }
     })
+
+    //results. Two objects with the name "name3" were found and returned
+    
+    /*
+        {
+            id: "3",
+            name: "name3",
+            product: "product3",
+            email: "example3@gmail.com"
+        },
+        {
+            id: "3",
+            name: "name3",
+            product: "product3",
+            email: "example4@gmail.com"
+        }
+    */
+
+    //if input value is empty string, all the object will be returned
+
 ...
 
 ### Limitation
 Cannot do deep object filtering for now. This feature comes soon.
-
+_Thank you..._
