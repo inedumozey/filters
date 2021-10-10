@@ -1,5 +1,5 @@
 {
-  "name": "filter",
+  "name": "@mo-filter",
   "version": "1.0.0",
   "description": "quickly filters large array of object. simple to use",
   "main": "filter.js",
@@ -12,10 +12,13 @@
     "url": "git+https://github.com/inedumozey/filter.git"
   },
   "keywords": [
-    "filter"
+    "filter",
+    "fine filter",
+    "@mo-filter",
+    "array of object"
   ],
   "author": "mozey inedu",
-  "license": "MIT",
+  "license": "ISC ",
   "type": "module",
   "bugs": {
     "url": "https://github.com/inedumozey/filter/issues"
