@@ -1,0 +1,24 @@
+{
+  "name": "filter",
+  "version": "1.0.0",
+  "description": "quickly filters large array of object. simple to use",
+  "main": "filter.js",
+  "bin": "filter.js",
+  "scripts": {
+    "start": "nodemon filter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inedumozey/filter.git"
+  },
+  "keywords": [
+    "filter"
+  ],
+  "author": "mozey inedu",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/inedumozey/filter/issues"
+  },
+  "homepage": "https://github.com/inedumozey/filter#readme"
+}
