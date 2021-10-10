@@ -92,4 +92,5 @@ filter is an a function that receives 4 compulsory arguments.
 
 ### Limitation
 Cannot do deep object filtering for now. This feature comes soon.
+
 _Thank you..._
