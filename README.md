@@ -1,4 +1,4 @@
-### filter.js
+## filter.js
 
 filter.js filters array of object with few lines of codes. It is simple to use, scalable, light weight and very easy to use
 
